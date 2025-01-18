@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>SMPN 1 Garawangi</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/logo.jpg">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Customer Login</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Username/Nomor HP" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Submit
+									</button>
+									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+								</div>
+							</div>
+						</form>
+					</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->	
+
+    <!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logoo.png" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="Fasilitas.html">Ekstrakulikuler</a></li>
+						<li class="nav-item active"><a class="nav-link" href="guru.html">Guru</a></li>
+						<li class="nav-item"><a class="nav-link" href="info_siswa.html">Informasi Siswa</a></li>
+						<li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>MASUK</span></a></li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<div class="all-title-box">
+		<div class="container text-center">
+			<h1>Daftar Guru</h1>
+		</div>
+	</div>
+   	<div id="teachers" class="section wb">
+        <div class="container">
+            <div class="row">
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Kepsek.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">HJ. Engkom Komara, M.Pd</h3>
+							<span class="post">Kepala Sekolah</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Eliawati,S. Ag.</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Didin Saprudin, S. Pd.</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Yayan, S. Pd.</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Wandi, S.Pd</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Leli Nurlelasari,S.Pd</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Rahmat Hidayat, S.Pd.</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Cucu Ningsih, S.Pd.I</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Elin Rosliani, S.Pd</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Uhen Suhendi, S.Pd</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Neneng Lia, S.S</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Maman Supratman, S.Pd</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Cahyadi, S.Pd</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Nanang Abdurrahman, S.Pd</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Een, S.Pd</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Sutisna, S.Pd</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Ero Rosadi, S.Pd</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Nanan Supratman, S.Pd</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Disman, S.Pd</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Cindy, S.E</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Silvi Damayantina, S.Pd.I</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/Profil.jpg">
+							<div class="social">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-skype"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 class="title">solehudin Majid, S.Sos</h3>
+							<span class="post">Guru</span>
+						</div>
+					</div>
+				</div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->	
+
+           
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Alamat</h3>
+                        </div>
+                        <p> Jalan Raya Purwasari No.10 Desa Purwasari Kec Garawangi Kab Kuningan.</p>
+                        <div class="footer-right">
+							<ul class="footer-links-soi">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							</ul><!-- end links -->
+						</div>
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Informasi Link</h3>
+                        </div>
+                        <ul class="footer-links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="Fasilitas.html">Ekstrakulikuler</a></li>
+							<li><a href="guru.html">Guru</a></li>
+							<li><a href="info_siswa.html">Informasi Siswa</a></li>
+							<li><a href="kontak.html">Kontak</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Kontak</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">smpn1garawangi@gmail.com</a></li>
+                            <li>0232874137</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+</body>
+</html>

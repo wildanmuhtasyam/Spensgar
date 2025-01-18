@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>SMPN 1 Garawangi</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/logo.jpg">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Customer Login</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Username/Nomor HP" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Submit
+									</button>
+									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->	
+
+    <!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logoo" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="Fasilitas.html">Ekstrakulikuler</a></li>
+						<li class="nav-item"><a class="nav-link" href="guru.html">Guru</a></li>
+						<li class="nav-item active"><a class="nav-link" href="info_siswa.html">Informasi Siswa</a></li>
+						<li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>MASUK</span></a></li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<div class="all-title-box">
+		<div class="container text-center">
+			<h1>Informasi Siswa</h1>
+		</div>
+	</div>
+	
+    <div class="row">
+        <div class="col-12">
+          <hr class="dashed">
+        </div>
+        <div class="col-md-12 col-12 mb-4">
+          <div class="card">
+            <div class="card-header text-center">
+              <div class="card-title">Jumlah L/P Per Kelas</div>
+            </div>
+            <div class="card-body text-center text-bold p-0">
+              <table class="table table-striped no-border table-siswa">
+                <thead>
+                  <tr>
+                    <th>No.</th>
+                    <th>Kelas</th>
+                    <th>L</th>
+                    <th>P</th>
+                    <th>Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Kelas VII -->
+                  <tr>
+                    <td>1.</td>
+                    <td>VII-A</td>
+                    <td>18</td>
+                    <td>15</td>
+                    <td>33</td>
+                  </tr>
+                  <tr>
+                    <td>2.</td>
+                    <td>VII-B</td>
+                    <td>17</td>
+                    <td>16</td>
+                    <td>33</td>
+                  </tr>
+                  <tr>
+                    <td>3.</td>
+                    <td>VII-C</td>
+                    <td>19</td>
+                    <td>14</td>
+                    <td>33</td>
+                  </tr>
+                  <tr>
+                    <td>4.</td>
+                    <td>VII-D</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>33</td>
+                  </tr>
+                  <tr>
+                    <td>5.</td>
+                    <td>VII-E</td>
+                    <td>18</td>
+                    <td>16</td>
+                    <td>34</td>
+                  </tr>
+                  <tr>
+                    <td>6.</td>
+                    <td>VII-F</td>
+                    <td>15</td>
+                    <td>18</td>
+                    <td>33</td>
+                  </tr>
+                  <tr>
+                    <td>7.</td>
+                    <td>VII-G</td>
+                    <td>17</td>
+                    <td>16</td>
+                    <td>33</td>
+                  </tr>
+                  <tr>
+                    <td>8.</td>
+                    <td>VII-H</td>
+                    <td>16</td>
+                    <td>16</td>
+                    <td>32</td>
+                  </tr>
+              
+                  <!-- Kelas VIII -->
+                  <tr>
+                    <td>9.</td>
+                    <td>VIII-A</td>
+                    <td>17</td>
+                    <td>16</td>
+                    <td>33</td>
+                  </tr>
+                  <tr>
+                    <td>10.</td>
+                    <td>VIII-B</td>
+                    <td>18</td>
+                    <td>15</td>
+                    <td>33</td>
+                  </tr>
+                  <tr>
+                    <td>11.</td>
+                    <td>VIII-C</td>
+                    <td>16</td>
+                    <td>18</td>
+                    <td>34</td>
+                  </tr>
+                  <tr>
+                    <td>12.</td>
+                    <td>VIII-D</td>
+                    <td>17</td>
+                    <td>16</td>
+                    <td>33</td>
+                  </tr>
+                  <tr>
+                    <td>13.</td>
+                    <td>VIII-E</td>
+                    <td>19</td>
+                    <td>14</td>
+                    <td>33</td>
+                  </tr>
+                  <tr>
+                    <td>14.</td>
+                    <td>VIII-F</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>33</td>
+                  </tr>
+                  <tr>
+                    <td>15.</td>
+                    <td>VIII-G</td>
+                    <td>18</td>
+                    <td>16</td>
+                    <td>34</td>
+                  </tr>
+                  <tr>
+                    <td>16.</td>
+                    <td>VIII-H</td>
+                    <td>15</td>
+                    <td>18</td>
+                    <td>33</td>
+                  </tr>
+              
+                  <!-- Kelas IX -->
+                  <tr>
+                    <td>17.</td>
+                    <td>IX-A</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>33</td>
+                  </tr>
+                  <tr>
+                    <td>18.</td>
+                    <td>IX-B</td>
+                    <td>18</td>
+                    <td>15</td>
+                    <td>33</td>
+                  </tr>
+                  <tr>
+                    <td>19.</td>
+                    <td>IX-C</td>
+                    <td>17</td>
+                    <td>17</td>
+                    <td>34</td>
+                  </tr>
+                  <tr>
+                    <td>20.</td>
+                    <td>IX-D</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>33</td>
+                  </tr>
+                  <tr>
+                    <td>21.</td>
+                    <td>IX-E</td>
+                    <td>18</td>
+                    <td>16</td>
+                    <td>34</td>
+                  </tr>
+                  <tr>
+                    <td>22.</td>
+                    <td>IX-F</td>
+                    <td>17</td>
+                    <td>15</td>
+                    <td>32</td>
+                  </tr>
+                  <tr>
+                    <td>23.</td>
+                    <td>IX-G</td>
+                    <td>19</td>
+                    <td>14</td>
+                    <td>33</td>
+                  </tr>
+                  <tr>
+                    <td>24.</td>
+                    <td>IX-H</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>33</td>
+                  </tr>
+                                    </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Alamat</h3>
+                        </div>
+                        <p>Jalan Raya Purwasari No.10 Desa Purwasari Kec Garawangi Kab Kuningan</p>
+                            <div class="footer-right">
+							<ul class="footer-links-soi">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#https://www.instagram.com/spensgar.daily?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa fa-instagram"></i></a></li>
+							</ul><!-- end links -->
+						</div>
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Informasi Link</h3>
+                        </div>
+                        <ul class="footer-links">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="Fasilitas.html">Ekstrakulikuler</a></li>
+                                <li><a href="guru.html">Guru</a></li>
+                                <li><a href="info_siswa.html">Informasi Siswa</a></li>
+                                <li><a href="kontak.html">Kontak</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Kontak</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">smpn1garawangi@gmail.com</a></li>
+                           <li>0232874137</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+   
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
